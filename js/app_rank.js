@@ -3,7 +3,7 @@ d3.csv("dataset/排行榜/col_name.csv").then((data1) => {
       var col_name= data1[i].col_name;
       
       d3.select("body")
-        .select("datalist")
+        .select("select")
         .append("option")
         .datum(col_name)
         .text((d) => d);
