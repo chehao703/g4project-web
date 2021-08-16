@@ -102,6 +102,9 @@ function ChangeText() {
         cash_dividend_predict = data[i].cash_dividend_predict.toFixed(2);
         cash_yield = data[i].cash_yield;
         return_yield = data[i].return_yield;
+        if (stock_dividend == null){
+          stock_dividend ='無'
+        }
       }
     }
     tablehtml = `

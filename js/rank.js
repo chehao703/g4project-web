@@ -5,7 +5,7 @@ function plotRank(reportClass) {
   var chart = new CanvasJS.Chart("chartContainer_rank", {
     animationEnabled: true,
     title: {
-      text: `${reportClass}前50名`,
+      text: `2020年${reportClass}前50名`,
       fontColor: "Peru",
       fontSize: 30,
     },
