@@ -144,11 +144,14 @@ function ChangeText() {
             <th>預測現金股利</th>
             <th>預測股利合計</th>
             <th>成長性指標-Fscore</th>
+            <td colspan="2" rowspan="2" align="center">PS:殖利率以2021/07/30收盤價計算</td>
           </tr>
-          <tr style=" color: #ff0000;font-weight: bold ;font-size: 25px;">
-            <td>${cash_dividend_predict}</td>
-            <td>${all_dividend_predict}</td>
+          <tr>
+            <td style=" color: #ff0000;font-weight: bold ;font-size: 25px;">${cash_dividend_predict}</td>
+            <td style=" color: #ff0000;font-weight: bold ;font-size: 25px;">${all_dividend_predict}</td>
             <td>${fscore}</td>
+            
+
           </tr>
     `;
 
