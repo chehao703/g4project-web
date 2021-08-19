@@ -133,9 +133,9 @@ function plotFinancial(stockid) {
     },
     legend: {
       cursor: "pointer",
-      verticalAlign: "bottom",
-      horizontalAlign: "left",
-      dockInsidePlotArea: true,
+      // verticalAlign: "bottom",
+      // horizontalAlign: "left",
+      // dockInsidePlotArea: true,
       itemclick: toogleDataSeries1,
     },
     data: [
@@ -352,9 +352,9 @@ function plotFinancial(stockid) {
     },
     legend: {
       cursor: "pointer",
-      verticalAlign: "bottom",
-      horizontalAlign: "left",
-      dockInsidePlotArea: true,
+      // verticalAlign: "bottom",
+      // horizontalAlign: "left",
+      // dockInsidePlotArea: true,
       itemclick: toogleDataSeries,
     },
     data: [
